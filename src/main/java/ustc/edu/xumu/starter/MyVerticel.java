@@ -24,6 +24,7 @@ public class MyVerticel extends AbstractVerticle {
         .end("Hello from Vert.x!");
     });
 
+
     // Now bind the server:
     server.listen(8080, res -> {
       if (res.succeeded()) {
