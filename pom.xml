@@ -58,6 +58,13 @@
       <version>${junit-jupiter.version}</version>
       <scope>test</scope>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/io.vertx/vertx-pg-client -->
+    <dependency>
+      <groupId>io.vertx</groupId>
+      <artifactId>vertx-pg-client</artifactId>
+      <version>4.0.3</version>
+    </dependency>
+
   </dependencies>
 
   <build>
